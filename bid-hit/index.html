@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bid-Hit | Home Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="back">
+      <nav>
+        <div class="logo">
+          <a href="./index.html"><img src="./image/logo.png" alt="Logo" /></a>
+          <a href="./index.html"><h1 class="bid-hit">Bid-Hit</h1></a>
+        </div>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a class="active" href="./index.html">HOME</a></li>
+          <li><a href="./products.html">PRODUCTS</a></li>
+
+          <li><a href="./aboutus.html">ABOUT US</a></li>
+          <li><a href="./contactus.html">CONTACT US</a></li>
+          <li><a href="./login.html">LOGIN</a></li>
+        </ul>
+      </nav>
+
+      <!-- Carousel -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="border-bottom: 1px solid #aa8740"
+      >
+        <div class="carousel-indicators csrl-slide-btn">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/pic5.jpg" class="d-block w-100" width="100%" />
+          </div>
+          <div class="carousel-item">
+            <img src="./image/pic4.jpg" class="d-block w-100" width="100%" />
+          </div>
+          <div class="carousel-item">
+            <img src="./image/pic3.jpg" class="d-block w-100" width="100%" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon crsl-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon crsl-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Reviews Section -->
+
+      <div class="container1">
+        <h2 class="review-heading">Here's why our customers choose us</h2>
+        <div class="left">
+          <ul>
+            <li>Highest rated user-friendly design.</li>
+            <li>Easy and fast bidding process.</li>
+            <li>Neither upfront nor high fixed cost.</li>
+            <li>Fast growing procurement team.</li>
+            <li>Dedicated 24x7 support.</li>
+          </ul>
+        </div>
+        <div class="right">
+          <div
+            class="card mb-3"
+            style="
+              max-width: 540px;
+              margin-top: 30px;
+              background-color: transparent;
+            "
+          >
+            
+          
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div id="article1"></div>
+        <div id="article2"></div>
+        <div id="article3"></div>
+      </div>
+      <!-- Updates Section -->
+      <div class="subscribe">
+        <h2 class="subscribe-heading">Subscribe for important updates</h2>
+        <input
+          type="email"
+          name="email"
+          class="emaill"
+          id="email"
+          placeholder="Enter your email address"
+        /><button id="submit" class="subscribe-btn">Subscribe</button>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="upper">
+              <div class="topic">About us</div>
+              <p>
+                Bid-Hit is a website that provides you with the best auction
+                platform. We are a team of young and enthusiastic people who are
+                dedicated to providing you with the best experience.
+              </p>
+            </div>
+            <div class="lower">
+              <div class="topic">Contact us</div>
+              <div class="phone">
+                <a href="#"
+                  ><i class="fas fa-phone-volume"></i>+216 XXXXXXXXXX</a
+                >
+              </div>
+              <div class="email">
+                <a href="mailto:Chebaaneismail@gmail.com"
+                  ><i class="fas fa-envelope"></i>Chebaaneismailgmail.com</a
+                >
+                <a href="mailto:titouhiomar223@gmail.com"
+                  ><i class="fas fa-envelope"></i>titouhiomar223gmail.com</a
+                >
+                <a href="mailto:hamdismida152@gmail.com"
+                  ><i class="fas fa-envelope"></i>hamdismida152gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="middle box">
+            <div class="topic">Discover</div>
+            <div><a href="./aboutus.html">About Us</a></div>
+            <div><a href="./contactus.html">Contact Us</a></div>
+            <div><a href="./products.html">Products</a></div>
+
+            <div><a href="./login.html">Login</a></div>
+          </div>
+          <div class="right box">
+            <div class="topic">Social Media</div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>
+            Copyright © 2021-2022 <a href="#">Bid-Hit</a> All rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap CDN-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Firebase Scripts -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCwcXkAZoIfiQfc7iqAFpoa3-a5_cElLHg",
+        authDomain: "loginweb-34cad.firebaseapp.com",
+        databaseURL: "https://loginweb-34cad-default-rtdb.firebaseio.com",
+        projectId: "loginweb-34cad",
+        storageBucket: "loginweb-34cad.appspot.com",
+        messagingSenderId: "178607050995",
+        appId: "1:178607050995:web:0071ffb26a6c5e54236786",
+        measurementId: "G-K3XZRNGCK7",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+
+      import {
+        getDatabase,
+        ref,
+        set,
+        child,
+        update,
+        remove,
+      } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js";
+
+      const db = getDatabase();
+
+      // Get a reference to the database service
+      var email = document.getElementById("email");
+
+      var submit = document.getElementById("submit");
+
+      // Insert Data Function
+
+      function insertData() {
+        set(ref(db, "Subscribe" + "/" + Date.now()), {
+          Email: email.value,
+        })
+          .then(() => {
+            alert("You are subscribed to us for more updates!");
+          })
+          .catch((error) => {
+            alert("Error: " + error);
+          });
+      }
+
+      // Assign Event Listener to the Submit Button
+      submit.addEventListener("click", insertData);
+    </script>
+  </body>
+</html>
